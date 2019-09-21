@@ -3,7 +3,7 @@ services:
   qgis:
     build:
       context: ..
-      dockerfile: ./.docker/Dockerfile
+      dockerfile: ./.docker/Dockerfile.test
       args:
         QGIS_TEST_VERSION: ${QGIS_TEST_VERSION}
     tty: true
