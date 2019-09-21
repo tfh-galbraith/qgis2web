@@ -8,4 +8,4 @@ RUN apt-get update && \
 
 ENV LANG=C.UTF-8 PYTHONUNBUFFERED=1
 WORKDIR /
-RUN python3 -m pip install --upgrade nose rednose pycodestyle pylint Twisted future
+RUN python3 -m pip install --upgrade nose rednose pycodestyle pylint Twisted future ipdbplugin
